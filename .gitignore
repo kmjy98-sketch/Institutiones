@@ -1,0 +1,48 @@
+# ===== 비밀·자격증명 (절대 commit 금지) =====
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+.mcp.json
+mcp.json
+credentials*.json
+token*.json
+secrets/
+**/*password*
+**/*credential*
+**/*api*key*
+
+# ===== 대용량·바이너리 (텍스트만 추적) =====
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+*.hwp
+*.hwpx
+*.zip
+*.7z
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp3
+*.mp4
+*.wav
+*.m4a
+
+# ===== 구글 워크스페이스 포인터 =====
+*.gdoc
+*.gsheet
+*.gslides
+*.gscript
+
+# ===== 캐시·OS =====
+__pycache__/
+*.pyc
+desktop.ini
+Thumbs.db
+.DS_Store
+node_modules/
+_trash/
